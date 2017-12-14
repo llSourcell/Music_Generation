@@ -1,6 +1,8 @@
 # keras-wavenet
 Keras implementation of deepmind's wavenet paper
 
+This is the code for [this](https://youtu.be/U9elzaxqpsg) video on Youtube by Siraj Raval on music generation ft Taryn Southern. 
+
 [Link to paper](https://drive.google.com/file/d/0B3cxcnOkPx9AeWpLVXhkTDJINDQ/view)
 
 ## Dataset used
@@ -15,3 +17,6 @@ cvlc -vvv --sout-keep --sout-all --sout "#gather:transcode{acodec=s16l,channels=
 - [x] The basic generative model  
 - [ ] Conditioning logic (speaker)  
 - [ ] Conditioning logic (TTS)  
+
+
+Credits for this code go to [usernammee](https://github.com/usernaamee/keras-wavenet). I've merely created a wrapper to get people started. 
